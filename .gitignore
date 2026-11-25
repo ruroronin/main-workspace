@@ -1,0 +1,14 @@
+# Workspace repo: track only config, notes and templates.
+# Code repos under demos/ and clients/ are separate git repos and are ignored here.
+/*
+!/.gitignore
+!/CLAUDE.md
+!/.claude/
+!/notes/
+!/templates/
+
+# Personal Claude Code settings stay local to each machine
+/.claude/settings.local.json
+
+# Never track secrets, even inside tracked folders
+.env
